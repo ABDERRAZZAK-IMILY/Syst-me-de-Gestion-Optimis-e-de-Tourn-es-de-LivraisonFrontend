@@ -13,7 +13,7 @@ export interface VehicleRequest {
 export class Api {
   
   private http = inject(HttpClient);
-  private backendUrl = 'http://logisticsapp-env.eu-west-3.elasticbeanstalk.com';
+  private backendUrl = 'https://logisticsapp-env.eu-west-3.elasticbeanstalk.com';
 
   
   public getVehicles(): Observable<any[]> {
